@@ -1,0 +1,51 @@
+/* ---------- Large ---------- */
+.image-lg {
+    height: 9rem;
+    width: 9rem;
+    object-fit: cover;
+
+}
+
+.icon-lg {
+
+    font-size: 9rem;
+}
+
+/* ---------- Medium ---------- */
+.image-md {
+    height: 4rem;
+    width: 4rem;
+    object-fit: cover;
+}
+
+
+.icon-md {
+    font-size: 4rem;
+}
+
+/*----------- Small ---------- */
+.image-sm {
+    height: 200px;
+    object-fit:scale-down;
+}
+
+.icon-sm {
+    font-size: 2rem;
+}
+.icon-xsm {
+    font-size: 1.5rem;
+}
+
+/* .img-fluid{
+    width: 600px;
+    height: 600px;
+    object-fit: scale-down;
+    object-position: 100px;
+} */
+
+.site{
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: minmax(0,1fr);
+}
