@@ -1,4 +1,4 @@
-<p align="center"> ![alt text](https://raw.githubusercontent.com/Bregas-git/steamer/refs/heads/master/public/images/steamer.JPG "steamer logo") </p>
+![alt text](https://raw.githubusercontent.com/Bregas-git/steamer/refs/heads/master/public/images/steamer.JPG "steamer logo")
 
 
 ## About STEAMER
