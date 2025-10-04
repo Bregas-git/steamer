@@ -15,7 +15,7 @@
                 <div class="col-5">
                     <label for="headline" class="form-label">Headline</label>
                     <input type="text" name="headline" id="headline" class="form-control"
-                        placeholder="write the headline...">
+                        value="{{$news->headline}}">
                     @error('headline')
                         <p class="text-danger small">{{ $message }}</p>
                     @enderror
@@ -33,7 +33,12 @@
                     @enderror
                 </div>
             </div>
-            <div class="col-9">
+            {{-- image --}}
+            <div class="col-3 mb-3">
+                <img src="{{$news->image}}" alt="{{$news->headline}}" class="image-lg">
+            </div>
+            {{-- upload --}}
+            <div class="col-6 mt-4">
                 <input type="file" name="image" id="image" class="form-control">
                 <div class="form-text small">Acceptable formats: jpeg, jpg, gif, png</div>
                 @error('image')
@@ -42,8 +47,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-10">
-                    <textarea name="content" id="content" cols="0" rows="10" class="form-control"
-                        placeholder="your content here..."></textarea>
+                    <textarea name="content" id="content" cols="0" rows="10" class="form-control">{{$news->content}}</textarea>
                     @error('content')
                         <p class="text-danger small">{{ $message }}</p>
                     @enderror

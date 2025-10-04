@@ -24,8 +24,14 @@
                         @forelse ($seller_news as $news)
                             <tr>
                                 <td>
-                                    <h3>{{ $news->headline }}</h3>
-                                    <img src="{{ $news->image }}" alt="{{ $news->headline }}" class="image-md">
+                                    <div class="row">
+                                    <div class="col-2">
+                                        <img src="{{ $news->image }}" alt="{{ $news->headline }}" class="image-md">
+                                    </div>
+                                    <div class="col-7">
+                                        <h3>{{ $news->headline }}</h3>
+                                    </div>
+                                    </div>
                                 </td>
                                 <td>
                                     <a href="{{ route('seller.news.edit', $news->id) }}"
