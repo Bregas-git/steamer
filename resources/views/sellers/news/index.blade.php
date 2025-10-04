@@ -7,41 +7,46 @@
         @csrf
         <div class="row justify-content-center">
             <div class="col-auto">
-                <h1>news</h1>
-                <button type="submit" class="btn btn-outline-success">
-                    Write News
-                </button>
+                <h1><i class="fa-solid fa-newspaper"></i> My news</h1>
             </div>
+        </div>
 
-            <div class="row">
-                <table class="table table-hover">
-                    <thead>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                    </thead>
-                    <tbody>
-                        @forelse ($seller_news as $news)
-                            <tr>
-                                <td>
-                                    <div class="row">
+        <div class="row">
+            <table class="table table-hover">
+                <thead>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </thead>
+                <tbody>
+                    @forelse ($seller_news as $news)
+                        <tr>
+                            <td>
+                                <div class="row">
                                     <div class="col-2">
                                         <img src="{{ $news->image }}" alt="{{ $news->headline }}" class="image-md">
                                     </div>
                                     <div class="col-7">
                                         <h3>{{ $news->headline }}</h3>
+                                        <p class="text-muted">{{$news->content}}
+                                        </p>
                                     </div>
-                                    </div>
-                                </td>
-                                <td>
-                                    <a href="{{ route('seller.news.edit', $news->id) }}"
-                                        class="btn btn-primary btn-sm">Edit</a>
-                                </td>
-                            </tr>
-                        @empty
-                        @endforelse
-                    </tbody>
-                </table>
+                                </div>
+                            </td>
+                            <td>
+                                <a href="{{ route('seller.news.edit', $news->id) }}"
+                                    class="mt-3 btn btn-primary btn-sm">Edit</a>
+                            </td>
+                        </tr>
+                    @empty
+                    @endforelse
+                </tbody>
+            </table>
+            <div class="row justify-content-center">
+                <button type="submit" class="btn btn-outline-success w-25">
+                    Write News
+                </button>
             </div>
         </div>
+
 </form @endsection
