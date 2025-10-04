@@ -1,31 +1,33 @@
-![alt text](Bregas-git/steamer/blob/master/public/images/steamer.JPG "steamer logo")
+![alt text](https://raw.githubusercontent.com/Bregas-git/steamer/refs/heads/master/public/images/steamer.JPG "steamer logo")
 
 
 ## About STEAMER
 
-**[Steamer](https://bre-portfolio.fun)** is inspired by the popular digital games store _[Steam](https://store.steampowered.com/)_ by Valve corporation. It is created to demonstrate what have I learned so far when it comes to building using Laravel.
+**[Steamer](https://bre-portfolio.fun)** is inspired by the popular digital games store _[Steam](https://store.steampowered.com/)_ by Valve corporation.
+
+It is created to demonstrate what have I learned so far when it comes to building using Laravel.
 
 Steamer has 3 types of user:
 
-* ### User
-....* squidward@gmail.com pw:kredo1234
-....* able to add balance into their wallet
-....* able to purchase games within their balance
-....* have access to their games library
-....* 🚧WIP🚧 able to see news/publication from sellers
+* #### User
+⋅⋅⋅⋅* squidward@gmail.com pw:kredo1234
+⋅⋅⋅⋅* able to add balance into their wallet
+⋅⋅⋅⋅* able to purchase games within their balance
+⋅⋅⋅⋅* have access to their games library
+⋅⋅⋅⋅* 🚧WIP🚧 able to see news/publication from sellers
 
 
-* ### Seller
-....* larry@gmail.com pw:kredo1234
-....* able to register product, and set the price(registered product needs admin approval before available to the users)
-....* able to post news/publication
-....* able to receive balance from users after a sale has been established
+* #### Seller
+⋅⋅⋅⋅* larry@gmail.com pw:kredo1234
+⋅⋅⋅⋅* able to register product, and set the price(registered product needs admin approval before available to the users)
+⋅⋅⋅⋅* able to post news/publication
+⋅⋅⋅⋅* able to receive balance from users after a sale has been established
 
-* ### Admin
-....* plank@gmail.com pw:kredo1234
-....* able to approve/reject products
-....* able to manage users, changing their role/profile type, and activate/deactivate other users
-....* able to add/edit/delete game categories
+* #### Admin
+⋅⋅⋅⋅* plank@gmail.com pw:kredo1234
+⋅⋅⋅⋅* able to approve/reject products
+⋅⋅⋅⋅* able to manage users, changing their role/profile type, and activate/deactivate other users
+⋅⋅⋅⋅* able to add/edit/delete game categories
 
 ---
 
