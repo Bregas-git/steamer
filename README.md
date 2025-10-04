@@ -1,4 +1,4 @@
-<p align="center">![alt text](https://raw.githubusercontent.com/Bregas-git/steamer/refs/heads/master/public/images/steamer.JPG "steamer logo")</p>
+<p align="center"> ![alt text](https://raw.githubusercontent.com/Bregas-git/steamer/refs/heads/master/public/images/steamer.JPG "steamer logo") </p>
 
 
 ## About STEAMER
@@ -9,7 +9,7 @@ It is created to demonstrate what have I learned so far when it comes to buildin
 
 Steamer has 3 types of user:
 
-* #### User
+### User
 - squidward@gmail.com pw:kredo1234
 - able to add balance into their wallet
 - able to purchase games within their balance
@@ -17,13 +17,13 @@ Steamer has 3 types of user:
 - 🚧WIP🚧 able to see news/publication from sellers
 
 
-* #### Seller
+### Seller
 - larry@gmail.com pw:kredo1234
 - able to register product, and set the price(registered product needs admin approval before available to the users)
 - able to post news/publication
 - able to receive balance from users after a sale has been established
 
-* #### Admin
+### Admin
 - plank@gmail.com pw:kredo1234
 - able to approve/reject products
 - able to manage users, changing their role/profile type, and activate/deactivate other users
