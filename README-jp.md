@@ -3,6 +3,8 @@
 
 ## STEAMERについて
 
+[English README](https://github.com/Bregas-git/steamer/blob/b4a895fb62351be6fda8198a592e5f56722a47c4/README.md)
+
 **[Steamer](https://bre-portfolio.fun)** は、Valve Corporation が運営する世界人気なデジタルゲームストア _[Steam](https://store.steampowered.com/)_ を着想し制作しました。
 
 本プロジェクトは、これまでに学んだ **Laravel** を使った開発スキルを実践的に示すために作成したものです。
