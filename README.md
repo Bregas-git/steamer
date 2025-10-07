@@ -1,12 +1,8 @@
-
-<p style="text-align:center;">
-    
 ![alt text](https://raw.githubusercontent.com/Bregas-git/steamer/refs/heads/master/public/images/steamer.JPG "steamer logo")
 
 ## About STEAMER
 
 [日本語READMEはこちら](https://github.com/Bregas-git/steamer/blob/78f7b12940dae87cbe3fc9ca0424a29056453c3d/README-jp.md)
-</p>
 
 **[Steamer](https://bre-portfolio.fun)** is inspired by the popular digital games store _[Steam](https://store.steampowered.com/)_ by Valve corporation.
 
