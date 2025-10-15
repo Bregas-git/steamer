@@ -1,7 +1,7 @@
-![alt text](https://raw.githubusercontent.com/Bregas-git/steamer/refs/heads/master/public/images/steamer.JPG "steamer logo")
+### <p align="center">![steamer](https://raw.githubusercontent.com/Bregas-git/steamer/refs/heads/master/public/images/steamer.JPG "steamer logo") </p>
 
 
-## STEAMERについて
+## <p align="center">STEAMERについて </p>
 
 [English README](https://github.com/Bregas-git/steamer/blob/b4a895fb62351be6fda8198a592e5f56722a47c4/README.md)
 
